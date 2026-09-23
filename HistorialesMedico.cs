@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ClinicaOdontologica
 {
     [Table("Historiales Medicos")]
-    internal class HistorialesMedico
+    public class HistorialesMedico
     {
         [Key]
         [Column("id_Historial",TypeName="Serial")]
@@ -28,6 +28,6 @@ namespace ClinicaOdontologica
         [ForeignKey("")]
         [Column("id_paciente")]
         public int idPaciente {  get; set; }
-        public Paciente paciente { get; set; }
+        public Pacientes paciente { get; set; }
     }
 }

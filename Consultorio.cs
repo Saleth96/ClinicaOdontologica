@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ClinicaOdontologica
 {
-    [Table("Consultorio")]
+    [Table("Consultorios")]
     public class Consultorio
     {
         [Key]

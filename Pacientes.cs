@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace ClinicaOdontologica
 {
-    [Table("Paciente")]
-    public class Paciente
+    [Table("Pacientes")]
+    public class Pacientes
     {
         [Key]
         [Column("id_paciente")]

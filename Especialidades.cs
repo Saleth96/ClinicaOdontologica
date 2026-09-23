@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ClinicaOdontologica
 {
     [Table("Especialidades")]
-    public class Especialidad
+    public class Especialidades
     {
         [Key]
         [Column("id_especialidad")]
